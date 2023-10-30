@@ -19,17 +19,18 @@ Dans cet exercice, vous allez vous installer un environnement de travail pour la
 git config --global user.name "John Doe"
 git config --global user.email "john.doe@csfoy.ca"
 git config --global core.editor "code --wait"
+git config --global --list
 ```
 
 ### Installation Docker Desktop
 
 - Installez la dernière version de [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+- Activez le mode Kubernetes
 
 ## Installation Visual Studio Code
 
 - Au besoin, installer [Visual Studio Code](https://code.visualstudio.com/)
 - Installer les extensions suivantes :
-  - Contrôle de code source 
   - Docker
   - Kubernetes
 
@@ -37,7 +38,8 @@ git config --global core.editor "code --wait"
 
 Dans cette partie, vous allez cloner un dépôt Git, créer une branche et déposer cette branche sur le dépôt distant. Au prochain cours nous allons voir la théorie sûre comment travailler avec les branches.
 
-- Faites un fork du dépôt suivant : [https://github.com/PiFou86/420-W44-SF-Module01](https://github.com/PiFou86/420-W44-SF-Module01) à l'aide de Visual Studio Code.
+- Faites un fork du dépôt suivant : [https://github.com/PiFou86/420-W44-SF-Module01](https://github.com/PiFou86/420-W44-SF-Module01)
+- Clonez localement votre dépôt à l'aide de Visual Studio Code.
 - **Attentions, faites des commits à toutes les étapes avec des messages significatifs.**
 - Ajouter une branche MaBranche_[VosInitiales] pour ce faire cliquer sur la branche dans la barre en bas.
 ![Branche](img/brancheVScode.jpg)
